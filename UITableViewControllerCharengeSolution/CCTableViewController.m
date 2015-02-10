@@ -60,8 +60,9 @@
     else if(indexPath.section == 1)
         cell.textLabel.text = @"Another section";
     else
-        cell.textLabel.text = [NSString stringWithFormat:@"cell %i",indexPath.row];
+        cell.textLabel.text = [NSString stringWithFormat:@"cell %li",indexPath.row];
     
+
     return cell;
 }
 

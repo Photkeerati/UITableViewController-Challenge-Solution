@@ -10,7 +10,6 @@
 		3DC18BCF1A8A81FF0098E869 /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC18BCE1A8A81FF0098E869 /* CCTableViewController.m */; };
 		3DC893791A8A7CD1004A8399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC893781A8A7CD1004A8399 /* main.m */; };
 		3DC8937C1A8A7CD1004A8399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8937B1A8A7CD1004A8399 /* AppDelegate.m */; };
-		3DC8937F1A8A7CD1004A8399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8937E1A8A7CD1004A8399 /* ViewController.m */; };
 		3DC893821A8A7CD1004A8399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC893801A8A7CD1004A8399 /* Main.storyboard */; };
 		3DC893841A8A7CD1004A8399 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC893831A8A7CD1004A8399 /* Images.xcassets */; };
 		3DC893871A8A7CD1004A8399 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC893851A8A7CD1004A8399 /* LaunchScreen.xib */; };
@@ -35,8 +34,6 @@
 		3DC893781A8A7CD1004A8399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DC8937A1A8A7CD1004A8399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DC8937B1A8A7CD1004A8399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3DC8937D1A8A7CD1004A8399 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DC8937E1A8A7CD1004A8399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3DC893811A8A7CD1004A8399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DC893831A8A7CD1004A8399 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3DC893861A8A7CD1004A8399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -86,8 +83,6 @@
 			children = (
 				3DC8937A1A8A7CD1004A8399 /* AppDelegate.h */,
 				3DC8937B1A8A7CD1004A8399 /* AppDelegate.m */,
-				3DC8937D1A8A7CD1004A8399 /* ViewController.h */,
-				3DC8937E1A8A7CD1004A8399 /* ViewController.m */,
 				3DC893801A8A7CD1004A8399 /* Main.storyboard */,
 				3DC18BCD1A8A81FF0098E869 /* CCTableViewController.h */,
 				3DC18BCE1A8A81FF0098E869 /* CCTableViewController.m */,
@@ -224,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC8937F1A8A7CD1004A8399 /* ViewController.m in Sources */,
 				3DC8937C1A8A7CD1004A8399 /* AppDelegate.m in Sources */,
 				3DC893791A8A7CD1004A8399 /* main.m in Sources */,
 				3DC18BCF1A8A81FF0098E869 /* CCTableViewController.m in Sources */,
