@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DC18BCF1A8A81FF0098E869 /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC18BCE1A8A81FF0098E869 /* CCTableViewController.m */; };
 		3DC893791A8A7CD1004A8399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC893781A8A7CD1004A8399 /* main.m */; };
 		3DC8937C1A8A7CD1004A8399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8937B1A8A7CD1004A8399 /* AppDelegate.m */; };
 		3DC8937F1A8A7CD1004A8399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8937E1A8A7CD1004A8399 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DC18BCD1A8A81FF0098E869 /* CCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		3DC18BCE1A8A81FF0098E869 /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 		3DC893731A8A7CD1004A8399 /* UITableViewControllerCharengeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewControllerCharengeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC893771A8A7CD1004A8399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC893781A8A7CD1004A8399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				3DC8937D1A8A7CD1004A8399 /* ViewController.h */,
 				3DC8937E1A8A7CD1004A8399 /* ViewController.m */,
 				3DC893801A8A7CD1004A8399 /* Main.storyboard */,
+				3DC18BCD1A8A81FF0098E869 /* CCTableViewController.h */,
+				3DC18BCE1A8A81FF0098E869 /* CCTableViewController.m */,
 				3DC893831A8A7CD1004A8399 /* Images.xcassets */,
 				3DC893851A8A7CD1004A8399 /* LaunchScreen.xib */,
 				3DC893761A8A7CD1004A8399 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				3DC8937F1A8A7CD1004A8399 /* ViewController.m in Sources */,
 				3DC8937C1A8A7CD1004A8399 /* AppDelegate.m in Sources */,
 				3DC893791A8A7CD1004A8399 /* main.m in Sources */,
+				3DC18BCF1A8A81FF0098E869 /* CCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				3DC893981A8A7CD1004A8399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DC893991A8A7CD1004A8399 /* Build configuration list for PBXNativeTarget "UITableViewControllerCharengeSolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				3DC8939B1A8A7CD1004A8399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
