@@ -34,12 +34,16 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 1;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
+    if(section == 0)
+        return 2;
+    else if(section == 1)
+        return 1;
     return 3;
 }
 
@@ -48,8 +52,13 @@
     NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
+    if(indexPath.section == 0)
+        cell.textLabel.text = @"I am section 0";
+    else if(indexPath.section == 1)
+        cell.textLabel.text = @"Another section";
+    
     // Configure the cell...
-    cell.textLabel.text = @"test";
+    cell.textLabel.text = [NSString stringWithFormat:@"cell %i",indexPath.row];
     
     return cell;
 }
